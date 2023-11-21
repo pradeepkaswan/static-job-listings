@@ -1,0 +1,5 @@
+@use '../abstracts/colors' as *;
+
+button:focus {
+  outline: 2px dotted var(--color-primary);
+}
